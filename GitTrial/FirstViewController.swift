@@ -12,7 +12,7 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var phaseLBL:UILabel!
     
     @IBAction func clickme(sender:UIButton){
-        
+        phaseLBL.text = "wow it works"
     }
     override func viewDidLoad() {
         super.viewDidLoad()
