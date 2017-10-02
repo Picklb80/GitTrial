@@ -9,7 +9,11 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-
+    @IBOutlet weak var phaseLBL:UILabel!
+    
+    @IBAction func clickme(sender:UIButton){
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
